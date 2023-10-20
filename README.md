@@ -1,6 +1,6 @@
 Branch:
 
 
-Create_table >>> создание таблиц
+Create-table >>> создание таблиц
 
 Tasks >>> задания
