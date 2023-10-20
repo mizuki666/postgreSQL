@@ -1,0 +1,29 @@
+CREATE TABLE TaskGen1 (
+    id serial PRIMARY KEY,
+    name VARCHAR(255),
+    age INT,
+    email VARCHAR(255),
+    birthdate DATE
+);
+
+INSERT INTO TaskGen1 (name, age, email, birthdate) VALUES
+('Иван Иванов', 25, 'ivan.ivanov@example.com', '1998-03-15'),
+('Екатерина Смирнова', 30, 'ekaterina.smirnova@example.com', '1993-08-22'),
+('Михаил Петров', NULL, 'mikhail.petrov@example.com', '1983-04-05'),
+('Анна Сидорова', 28, 'anna.sidorova@example.com', '1995-11-17'),
+('Александр Григорьев', 35, 'alexandr.grigorev@example.com', '1988-07-30'),
+('София Давыдова', 22, 'sofia.davydova@example.com', '2001-02-10'),
+('Дмитрий Козлов', 33, 'dmitriy.kozlov@example.com', '1989-09-25'),
+('Анна Иванова', 27, 'anna.ivanova@example.com', '1996-12-08'),
+('Вячеслав Герасимов', 45, 'vyacheslav.gerasimov@example.com', '1978-06-03'),
+('Людмила Чернова', NULL, 'lyudmila.chernova@example.com', '1994-01-20'),
+('Игорь Тимофеев', 37, 'igor.timofeev@example.com', '1986-10-14'),
+('Елена Сергеева', 32, 'elena.sergeeva@example.com', '1991-07-27'),
+('Андрей Федоров', 50, 'andrey.fedorov@example.com', '1973-05-18'),
+('Мария Ткаченко', 26, 'maria.tkachenko@example.com', '1997-09-02'),
+('Владимир Смирнов', 42, 'vladimir.smirnov@example.com', '1981-03-09'),
+('Татьяна Попова', NULL, 'tatyana.popova@example.com', '1992-12-01'),
+('Алексей Игнатьев', 55, 'alexey.ignatev@example.com', '1968-08-12'),
+('Юлия Мартынова', 24, 'yuliya.martynova@example.com', '1999-04-19'),
+('Максим Сергеев', 39, 'maxim.sergeev@example.com', '1984-11-23'),
+('Светлана Белякова', NULL, 'svetlana.belyakova@example.com', '1989-07-16');
