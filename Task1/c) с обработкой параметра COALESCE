@@ -1,0 +1,1 @@
+SELECT NAME,COALESCE(age,0), age FROM taskgen1
