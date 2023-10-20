@@ -1,0 +1,2 @@
+SELECT * FROM taskgen1
+WHERE age is not NULL
