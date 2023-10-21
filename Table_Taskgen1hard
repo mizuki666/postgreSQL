@@ -1,0 +1,31 @@
+CREATE TABLE Taskgen1hard (
+    id serial PRIMARY KEY,
+    name VARCHAR(255),
+    age INT,
+    email VARCHAR(255),
+    birthdate DATE,
+    salary INT,
+    department VARCHAR(255)
+);
+
+INSERT INTO Taskgen1hard (name, age, email, birthdate, salary, department) VALUES
+('Иван Иванов', 25, 'ivan.ivanov@example.com', '1998-03-15', NULL, 'IT'),
+('Екатерина Смирнова', 30, 'ekaterina.smirnova@example.com', '1993-08-22', 50000, 'HR'),
+('Михаил Петров', NULL, 'mikhail.petrov@example.com', '1983-04-05', 60000, 'Finance'),
+('Анна Сидорова', 28, 'anna.sidorova@example.com', '1995-11-17', NULL, 'Sales'),
+('Александр Григорьев', 35, 'alexandr.grigorev@example.com', '1988-07-30', 75000, 'IT'),
+('София Давыдова', NULL, 'sofia.davydova@example.com', '2001-02-10', 80000, 'HR'),
+('Дмитрий Козлов', 33, 'dmitriy.kozlov@example.com', '1989-09-25', 90000, 'Finance'),
+('Анна Иванова', 27, 'anna.ivanova@example.com', '1996-12-08', NULL, 'Sales'),
+('Вячеслав Герасимов', 45, 'vyacheslav.gerasimov@example.com', '1978-06-03', 100000, 'NULL'),
+('Людмила Чернова', NULL, 'lyudmila.chernova@example.com', '1994-01-20', NULL, 'HR'),
+('Игорь Тимофеев', 37, 'igor.timofeev@example.com', '1986-10-14', 110000, 'Finance'),
+('Елена Сергеева', 32, 'elena.sergeeva@example.com', '1991-07-27', 120000, 'Sales'),
+('Андрей Федоров', 50, 'andrey.fedorov@example.com', '1973-05-18', 130000, 'IT'),
+('Мария Ткаченко', 26, 'maria.tkachenko@example.com', '1997-09-02', 140000, 'HR'),
+('Владимир Смирнов', 42, 'vladimir.smirnov@example.com', '1981-03-09', 150000, 'NULL'),
+('Татьяна Попова', NULL, 'tatyana.popova@example.com', '1992-12-01', NULL, 'NULL'),
+('Алексей Игнатьев', 55, 'alexey.ignatev@example.com', '1968-08-12', 160000, 'NULL'),
+('Юлия Мартынова', 24, 'yuliya.martynova@example.com', '1999-04-19', 170000, 'HR'),
+('Максим Сергеев', 39, 'maxim.sergeev@example.com', '1984-11-23', 180000, 'Finance'),
+('Светлана Белякова', NULL, 'svetlana.belyakova@example.com', '1989-07-16', 190000, 'Sales');
