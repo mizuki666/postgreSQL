@@ -1,0 +1,4 @@
+SELECT id, NAME, salary, department, COALESCE(age,0)
+FROM taskgen1hard
+
+WHERE salary is null AND department <> 'NULL'
